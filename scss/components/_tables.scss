@@ -1,0 +1,38 @@
+@import "../utilities/variables";
+
+.dk-table {
+  width: 100%;
+  border-collapse: collapse;
+  tr {
+    height: 6rem;
+    td {
+      text-align: center;
+    }
+  }
+}
+
+.dk-striped-table {
+  tr:first-child {
+    border-radius: 10px !important;
+    color: #fff;
+    background: linear-gradient(
+      91.72deg,
+      #ef394e 4.06%,
+      #ff7181 95.48%
+    ) !important;
+  }
+  tr:nth-child(odd) {
+    background: linear-gradient(91.72deg, #f0f0f0 4.06%, #fafafa 95.48%);
+  }
+  tr:nth-child(even) {
+    background-color: #fff;
+  }
+}
+
+.dk-table {
+  tr:first-child {
+    td:first-child {
+      border-radius: 20px 20px 0 0;
+    }
+  }
+}

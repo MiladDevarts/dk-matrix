@@ -1,0 +1,36 @@
+header {
+  position: relative;
+  width: 100vw;
+  display: none;
+  .hero-banner {
+    position: absolute;
+    left: 50%;
+    top: 10rem;
+    transform: translateX(-50%);
+    height: 30rem;
+  }
+
+  .hero-bg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 35rem;
+  }
+}
+
+main {
+  position: relative;
+  top: 50rem;
+}
+
+.dmx-campaign {
+  margin-top: 20rem;
+  position: relative;
+
+  img {
+    margin-bottom: 3rem;
+    @include breakpoint-down(sm) {
+      width: 10rem;
+    }
+  }
+}
