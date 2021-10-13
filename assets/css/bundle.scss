@@ -40,14 +40,16 @@ $utilities: map-get-multiple(
         "padding-start",
   )
 );
-
 @import "packages/bootstrap/scss/utilities/api";
-
-
-// Layout & components
 @import "packages/bootstrap/scss/root";
 @import 'packages/bootstrap/scss/reboot';
 @import 'packages/bootstrap/scss/grid';
+
+//Components
+@import 'components/buttons';
+@import 'components/headings';
+@import 'components/productCarousels';
+@import 'components/tables';
 
 
 //Project Files

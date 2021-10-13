@@ -7,7 +7,7 @@
     h3 {
       font-size: 20px;
       position: relative;
-      color: $primary-color;
+      color: var(--bs-primary);
     }
     h3::before {
       content: "";
@@ -17,7 +17,7 @@
       width: 8rem;
       height: 0.4rem;
       border-radius: 5px;
-      background-color: $primary-color;
+      background-color: var(--bs-primary);
     }
     a {
       font-size: 14px;

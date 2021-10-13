@@ -1,7 +1,4 @@
-@import "../utilities/variables";
-
 .dk-btn {
-  font-family: iranyekan;
   font-weight: normal;
   width: 17rem;
   height: 5rem;
@@ -10,17 +7,15 @@
 }
 
 .dk-fill-btn {
-  font-family: iranyekan;
   font-weight: normal;
   border: none;
-  color: $w-color;
-  background-color: $primary-color;
+  color: var(--bs-w-color);
+  background-color: var(--bs-primary);
 }
 
 .dk-outline-btn {
-  font-family: iranyekan;
   font-weight: normal;
   border: 1px solid #e0e0e2;
-  color: $text-color;
+  color: var(--bs-text-color);
   background-color: transparent;
 }
