@@ -1,8 +1,6 @@
-.dk-headings {
-  h2 {
-    font-size: 2.5rem;
-    color: var(--bs-primary);
-  }
+.dk-headings, .dk-headings h2 {
+  font-size: 2.5rem;
+  color: var(--bs-primary);
 }
 
 .dk-paragraph {
