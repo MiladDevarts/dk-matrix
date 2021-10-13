@@ -1,0 +1,19 @@
+@font-face {
+  font-family:"iranyekan";
+  font-weight:bold;
+  font-style:normal;
+  font-display: swap;
+  src:url("../../fonts/iranyekan/bold.woff") format("woff");
+}
+@font-face {
+  font-family:"iranyekan";
+  font-weight:normal;
+  font-style:normal;
+  font-display: swap;
+  src:url("../../fonts/iranyekan/regular.woff") format("woff");
+}
+
+body {
+  font-family: "iranyekan" !important;
+  font-weight: normal;
+}
