@@ -125,3 +125,8 @@
     right: 0 !important;
   }
 }
+
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  display: none;
+}
