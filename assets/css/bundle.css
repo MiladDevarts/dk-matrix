@@ -6343,15 +6343,13 @@ progress {
 .dk-striped-table tr:first-child th img {
   width: 1.6rem;
   height: 1.6rem; }
-.dk-striped-table tr td, .dk-striped-table tr th {
-  padding: 0 30px; }
-  .dk-striped-table tr td:first-of-type, .dk-striped-table tr th:first-of-type {
-    border-radius: 0 10px 10px 0; }
-  .dk-striped-table tr td:last-of-type, .dk-striped-table tr th:last-of-type {
-    border-radius: 10px 0 0 10px; }
-  .dk-striped-table tr td img, .dk-striped-table tr th img {
-    width: 70px;
-    border-radius: 0; }
+.dk-striped-table tr td:first-of-type, .dk-striped-table tr th:first-of-type {
+  border-radius: 0 10px 10px 0; }
+.dk-striped-table tr td:last-of-type, .dk-striped-table tr th:last-of-type {
+  border-radius: 10px 0 0 10px; }
+.dk-striped-table tr td img, .dk-striped-table tr th img {
+  width: 70px;
+  border-radius: 0; }
 .dk-striped-table tr:not(.dk-striped-table tr:first-child) td img, .dk-striped-table tr:not(.dk-striped-table tr:first-child) th img {
   margin-top: -15px;
   margin-left: 15px; }
