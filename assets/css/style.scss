@@ -248,9 +248,6 @@ header {
 .dk-land-about{
   margin-top: 18rem;
   position: relative;
-  img{
-    border-radius: 0;
-  }
   &:before{
     position: absolute;
     content: "";
@@ -311,6 +308,19 @@ header {
         right: calc(50% - 50px);
         top: -58px;
       }
+    }
+  }
+  .dk-land-about{
+    &:before {
+      width: 550px;
+      height: 500px;
+      top: 0;
+    }
+    img{
+      margin-top: 5rem;
+    }
+    .content:after{
+      bottom: 4.7rem;
     }
   }
 }
@@ -386,6 +396,38 @@ header {
         }
       }
     }
+    &.type-1:before {
+      top: -70px;
+    }
+    &.type-column h4{
+      font-size: 1.5rem;
+    }
+    &.type-3{
+      margin-right: 0;
+      padding-right: 0;
+      text-align: center;
+      h4 span:first-of-type {
+        margin-bottom: 4rem;
+      }
+      &:before {
+        background: url("../images/dk-headings-3-md.svg");
+        background-repeat: repeat;
+        width: 104px;
+        height: 156px;
+        right: calc(50% - 52px);
+        top: -90px;
+      }
+    }
+  }
+  .dk-land-about{
+    margin-top: 14rem;
+    margin-bottom: 11rem;
+    &:before {
+      top: calc(100% - 430px);
+    }
+    .content::after {
+      display: none;
+    }
   }
 }
 @media(max-width: 768px){
@@ -411,6 +453,7 @@ header {
     }
   }
   .dk-land-video {
+    margin-top: 14rem;
     .content:before {
       left: calc(50% - 215px);
       top: -110px;
@@ -421,14 +464,56 @@ header {
       margin-top: -10px
     }
   }
+  .dk-land-about{
+    &:before {
+      top: calc(100% - 460px);
+    }
+    img {
+      margin-top: 0;
+      width: 100% !important;
+    }
+  }
 }
 
 
 @media(max-width: 576px){
-  .dk-land-video .content:before  {
-    left: calc(50% - 165px);
-    top: -140px;
-    width: 330px;
-    height: 330px;
+  .dk-land-video {
+    margin-top: 11rem;
+    .content:before  {
+      left: calc(50% - 190px);
+      top: -100px;
+      width: 380px;
+      height: 380px;
+    }
+  }
+  .dk-headings.type-2 h4 span:last-of-type {
+    display: none;
+  }
+  .dk-land-about::before {
+    top: calc(100% - 370px);
+    width: 450px;
+    height: 400px;
+  }
+  .container,.container-fluid{
+    padding-right: var(--bs-gutter-x, 1.75rem);
+    padding-left: var(--bs-gutter-x, 1.75rem);
+  }
+}
+@media(max-width: 420px){
+  .dk-land-video {
+    video {
+      margin-top: -35px;
+    }
+    .content:before  {
+      left: calc(50% - 145px);
+      top: -100px;
+      width: 290px;
+      height: 290px;
+    }
+  }
+  .dk-land-about::before {
+    top: calc(100% - 307px);
+    width: 350px;
+    height: 350px;
   }
 }
