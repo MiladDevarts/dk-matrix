@@ -237,8 +237,7 @@
     <div class="row d-flex align-items-center flex-column flex-lg-row flex-column-reverse">
         <div class="col-lg-8">
             <video controls>
-                <source src="assets/video/msi.m4v" type="video/mp4">
-                <source src="assets/video/msi.m4v" type="video/ogg">
+                <source src="assets/video/dk-sample-video.mp4" type="video/mp4">
             </video>
         </div>
         <div class="col-lg-4 content ">
