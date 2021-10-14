@@ -6354,6 +6354,9 @@ progress {
   margin-top: -15px;
   margin-left: 15px; }
 
+@media (max-width: 992px) {
+  .dk-table tr {
+    height: 5rem; } }
 @font-face {
   font-family: "iranyekan";
   font-weight: bold;
@@ -6604,12 +6607,31 @@ header {
     width: 4.563rem;
     height: 4.563rem; } }
 @media (max-width: 1200px) {
+  section {
+    margin-top: 10rem; }
+    section.section-last {
+      margin-bottom: 10rem; }
+
   header > div:before {
     right: 60px; }
   header > div:after {
     top: 195px;
-    left: 60px; } }
+    left: 60px; }
+
+  .dk-headings.type-1 {
+    text-align: center; }
+    .dk-headings.type-1:before {
+      right: calc(50% - 50px);
+      top: -58px; } }
 @media (max-width: 992px) {
+  h4 {
+    font-size: 1.5rem; }
+
+  section {
+    margin-top: 9rem; }
+    section.section-last {
+      margin-bottom: 9rem; }
+
   img, video {
     border-radius: 0.75rem; }
 
@@ -6633,9 +6655,19 @@ header {
     right: inherit;
     top: 3.5rem;
     filter: grayscale(100%);
-    opacity: .65; } }
+    opacity: .65; }
+
+  .dk-land-comment:before {
+    display: none; } }
 @media (max-width: 768px) {
+  section {
+    margin-top: 6rem; }
+    section.section-last {
+      margin-bottom: 6rem; }
+
   header .header-img {
-    margin-top: -4.5rem; } }
+    margin-top: -4.5rem; }
+  header > div:before {
+    top: 2rem; } }
 
 /*# sourceMappingURL=bundle.css.map */

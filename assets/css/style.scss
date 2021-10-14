@@ -292,6 +292,12 @@ header {
   }
 }
 @media(max-width: 1200px){
+  section{
+    margin-top: 10rem;
+    &.section-last{
+      margin-bottom: 10rem;
+    }
+  }
   header > div{
     &:before {
       right: 60px;
@@ -301,8 +307,26 @@ header {
       left: 60px;
     }
   }
+  .dk-headings{
+    &.type-1{
+      text-align: center;
+      &:before {
+        right: calc(50% - 50px);
+        top: -58px;
+      }
+    }
+  }
 }
 @media(max-width: 992px){
+  h4 {
+    font-size: 1.5rem;
+  }
+  section{
+    margin-top: 9rem;
+    &.section-last{
+      margin-bottom: 9rem;
+    }
+  }
   img,video{
     border-radius: 0.75rem;
   }
@@ -335,9 +359,26 @@ header {
       }
     }
   }
+  .dk-land-comment{
+    &:before {
+      display: none;
+    }
+  }
+
 }
 @media(max-width: 768px){
-  header .header-img {
-    margin-top: -4.5rem;
+  section{
+    margin-top: 6rem;
+    &.section-last{
+      margin-bottom: 6rem;
+    }
+  }
+  header {
+    .header-img {
+      margin-top: -4.5rem;
+    }
+    > div:before {
+      top: 2rem;
+    }
   }
 }
