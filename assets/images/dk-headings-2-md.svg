@@ -1,0 +1,27 @@
+<svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="24.375" cy="46.875" r="1.875" fill="#FF7181"/>
+<circle cx="24.375" cy="13.125" r="1.875" fill="#FF7181"/>
+<ellipse cx="35.9375" cy="13.125" rx="2.1875" ry="1.875" fill="#FF7181"/>
+<circle cx="24.375" cy="1.875" r="1.875" fill="#FF7181"/>
+<ellipse cx="35.9375" cy="1.875" rx="2.1875" ry="1.875" fill="#FF7181"/>
+<circle cx="1.875" cy="46.875" r="1.875" fill="#FF7181"/>
+<ellipse cx="35.9375" cy="46.875" rx="2.1875" ry="1.875" fill="#FF7181"/>
+<circle cx="13.125" cy="46.875" r="1.875" fill="#FF7181"/>
+<circle cx="1.875" cy="13.125" r="1.875" fill="#FF7181"/>
+<circle cx="13.125" cy="58.125" r="1.875" fill="#FF7181"/>
+<circle cx="1.875" cy="58.125" r="1.875" fill="#FF7181"/>
+<circle cx="13.125" cy="13.125" r="1.875" fill="#FF7181"/>
+<circle cx="1.875" cy="1.875" r="1.875" fill="#FF7181"/>
+<circle cx="13.125" cy="1.875" r="1.875" fill="#FF7181"/>
+<circle cx="24.375" cy="58.125" r="1.875" fill="#FF7181"/>
+<ellipse cx="35.9375" cy="58.125" rx="2.1875" ry="1.875" fill="#FF7181"/>
+<circle cx="47.5" cy="46.875" r="1.875" fill="#FF7181"/>
+<circle cx="58.75" cy="46.875" r="1.875" fill="#FF7181"/>
+<circle cx="47.5" cy="13.125" r="1.875" fill="#FF7181"/>
+<circle cx="58.75" cy="58.125" r="1.875" fill="#FF7181"/>
+<circle cx="47.5" cy="58.125" r="1.875" fill="#FF7181"/>
+<circle cx="58.75" cy="13.125" r="1.875" fill="#FF7181"/>
+<circle cx="47.5" cy="1.875" r="1.875" fill="#FF7181"/>
+<circle cx="58.75" cy="1.875" r="1.875" fill="#FF7181"/>
+<path d="M57 23L56.2359 23.8187C52.7245 27.5809 52.7245 33.4191 56.2359 37.1813V37.1813L57 38" stroke="#FF7181" stroke-width="5" stroke-linecap="round"/>
+</svg>
