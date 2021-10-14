@@ -1,20 +1,25 @@
 @import "colors";
-@import "packages/bootstrap/scss/functions";
-@import "packages/bootstrap/scss/variables";
-@import "packages/bootstrap/scss/mixins";
-@import "packages/bootstrap/scss/utilities";
-@import "packages/bootstrap/scss/utilities/api";
-@import "packages/bootstrap/scss/root";
-@import 'packages/bootstrap/scss/reboot';
-@import 'packages/bootstrap/scss/grid';
-@import 'packages/bootstrap/scss/containers';
+@import "../packages/bootstrap/scss/functions";
+@import "../packages/bootstrap/scss/variables";
+@import "../packages/bootstrap/scss/mixins";
+@import "../packages/bootstrap/scss/utilities";
+@import "../packages/bootstrap/scss/utilities/api";
+@import "../packages/bootstrap/scss/root";
+@import '../packages/bootstrap/scss/reboot';
+@import '../packages/bootstrap/scss/grid';
+@import '../packages/bootstrap/scss/containers';
 
 //Components
 @import 'components/buttons';
 @import 'components/productCarousels';
 @import 'components/tables';
 
+//Package
+@import '../packages/swiper/swiper-bundle.min.css';
 
 //Project Files
 @import 'fonts';
 @import 'style';
+
+
+
