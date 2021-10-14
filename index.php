@@ -1,3 +1,5 @@
+<?php require_once 'api/data.php'; ?>
+
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
@@ -13,8 +15,8 @@
 <header class="container">
     <div class="row justify-content-center">
         <a rel="noopener" href="/" class="col-lg-8 col-sm-9 col-10 header-img" aria-label="label-header-img">
-            <img src="assets/images/products/hero.jpg" class="d-none d-lg-block" alt="" >
-            <img src="assets/images/products/hero.mw.jpg" class="d-block d-lg-none" alt="" >
+            <img src="assets/images/products/hero.jpg" class="d-none d-lg-block" alt="">
+            <img src="assets/images/products/hero.mw.jpg" class="d-block d-lg-none" alt="">
         </a>
     </div>
 </header>
@@ -22,8 +24,8 @@
 <section class="container">
     <div class="row justify-content-center">
         <a rel="noopener" href="/" class="col-xl-4 col-lg-5 col-md-9" aria-label="label-sec-1">
-            <img src="assets/images/products/matrix.web.1.jpg" class="shadow d-none d-lg-block" alt="" >
-            <img src="assets/images/products/matrix.md.1.jpg" class="shadow d-block d-lg-none" alt="" >
+            <img src="assets/images/products/matrix.web.1.jpg" class="shadow d-none d-lg-block" alt="">
+            <img src="assets/images/products/matrix.md.1.jpg" class="shadow d-block d-lg-none" alt="">
         </a>
     </div>
 </section>
@@ -60,7 +62,8 @@
                             </th>
                             <th>
                                 <img src="assets/images/table-gift.svg" alt="">
-                                هدیه</th>
+                                هدیه
+                            </th>
                         </tr>
                         <tr>
                             <td>کامپیوتر های همه کاره MSI</td>
@@ -114,118 +117,31 @@
         </h4>
         <div class="col-12 swiper product-carousel-box">
             <div class="swiper-wrapper">
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
+                <?php foreach ($allInOne_products as $product): ?>
+                    <div class="swiper-slide product-item">
+                        <a rel="noopener" href="<?= $product->product_url ?>">
+                            <img src="<?= $product->image_src ?>" alt="<?= $product->name ?>">
+                            <div class="title">
+                                <?= $product->name ?>
+                            </div>
+                            <?php if ($product->status == 'marketable'): ?>
+
+                                <?php if ($product->price_detail->discount_percent_str ?? 0): ?>
+                                    <div class="old-price">
+                                        <del><?= $product->fa_main_price_str ?></del>
+                                        <span class="discount"><?= $product->fa_discount_str ?></span>
+                                    </div>
+                                <?php endif; ?>
+                                <div class="new-price">
+                                    <?= $product->fa_discounted_price_str ?>
+                                    <span class="currency">تومان</span>
+                                </div>
+                            <?php else: ?>
+                                ناموجود
+                            <?php endif; ?>
+                        </a>
+                    </div>
+                <?php endforeach; ?>
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -294,118 +210,31 @@
         </h4>
         <div class="col-12 swiper product-carousel-box">
             <div class="swiper-wrapper">
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
+                <?php foreach ($hard_products as $product): ?>
+                    <div class="swiper-slide product-item">
+                        <a rel="noopener" href="<?= $product->product_url ?>">
+                            <img src="<?= $product->image_src ?>" alt="<?= $product->name ?>">
+                            <div class="title">
+                                <?= $product->name ?>
+                            </div>
+                            <?php if ($product->status == 'marketable'): ?>
+
+                                <?php if ($product->price_detail->discount_percent_str ?? 0): ?>
+                                    <div class="old-price">
+                                        <del><?= $product->fa_main_price ?></del>
+                                        <span class="discount"><?= $product->fa_discount_str ?></span>
+                                    </div>
+                                <?php endif; ?>
+                                <div class="new-price">
+                                    <?= $product->fa_discounted_price_str ?>
+                                    <span class="currency">تومان</span>
+                                </div>
+                            <?php else: ?>
+                                ناموجود
+                            <?php endif; ?>
+                        </a>
+                    </div>
+                <?php endforeach; ?>
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -416,12 +245,12 @@
 <section class="container">
     <div class="row justify-content-center gx-xl-5">
         <a rel="noopener" href="#" class="col-md-6 mb-4 mb-sm-5 mb-lg-0" aria-label="label-sec-2">
-            <img src="assets/images/products/matrix.web.2.jpg" class="shadow d-none d-lg-block" alt="" >
-            <img src="assets/images/products/matrix.web.2.md.jpg" class="shadow d-block d-lg-none" alt="" >
+            <img src="assets/images/products/matrix.web.2.jpg" class="shadow d-none d-lg-block" alt="">
+            <img src="assets/images/products/matrix.web.2.md.jpg" class="shadow d-block d-lg-none" alt="">
         </a>
         <a rel="noopener" href="#" class="col-md-6" aria-label="label-sec-3">
-            <img src="assets/images/products/matrix.web.3.jpg" class="shadow d-none d-lg-block" alt="" >
-            <img src="assets/images/products/matrix.web.3.md.jpg" class="shadow d-block d-lg-none" alt="" >
+            <img src="assets/images/products/matrix.web.3.jpg" class="shadow d-none d-lg-block" alt="">
+            <img src="assets/images/products/matrix.web.3.md.jpg" class="shadow d-block d-lg-none" alt="">
         </a>
     </div>
 </section>
@@ -436,125 +265,37 @@
         </h4>
         <div class="col-12 swiper product-carousel-box">
             <div class="swiper-wrapper">
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide product-item">
-                    <a rel="noopener" href="/">
-                        <img src="assets/images/products/1.png" alt="">
-                        <div class="title">
-                            کامپیوتر همه کاره 23.8 اینچی ام اس آی مدل PRO 24X 10M B
-                        </div>
-                        <div class="old-price">
-                            <del>۲۵,۰۰۰,۰۰۰</del>
-                            <span class="discount">۱۰٪</span>
-                        </div>
-                        <div class="new-price">
-                            ۲۱,۰۰۰,۰۰۰
-                            <span class="currency">تومان</span>
-                        </div>
-                    </a>
-                </div>
+                <?php foreach ($laptop_products as $product): ?>
+                    <div class="swiper-slide product-item">
+                        <a rel="noopener" href="<?= $product->product_url ?>">
+                            <img src="<?= $product->image_src ?>" alt="<?= $product->name ?>">
+                            <div class="title">
+                                <?= $product->name ?>
+                            </div>
+                            <?php if ($product->status == 'marketable'): ?>
+
+                                <?php if ($product->price_detail->discount_percent_str ?? 0): ?>
+                                    <div class="old-price">
+                                        <del><?= $product->fa_main_price ?></del>
+                                        <span class="discount"><?= $product->fa_discount_str ?></span>
+                                    </div>
+                                <?php endif; ?>
+                                <div class="new-price">
+                                    <?= $product->fa_discounted_price_str ?>
+                                    <span class="currency">تومان</span>
+                                </div>
+                            <?php else: ?>
+                                ناموجود
+                            <?php endif; ?>
+                        </a>
+                    </div>
+                <?php endforeach; ?>
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
     </div>
 </section>
-
 
 
 <!-- JS -->
