@@ -1,15 +1,24 @@
-html{
-  font-size: 10px !important;
+body{
+  color: var(--bs-text-color);
 }
-h1,
-h2,
-h3 {
+a{
+  text-decoration: none;
+}
+h4 {
+  font-size: 2.5rem;
   font-weight: bold;
 }
+p{
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 2.2rem;
+  margin-bottom: 2.2rem;
+  text-align: justify;
+}
 section{
-  margin-top: 18rem;
+  margin-top: 11rem;
   &.section-last{
-    margin-bottom: 18rem;
+    margin-bottom: 11rem;
   }
 }
 .container{
@@ -24,6 +33,7 @@ section{
 
 img{
   width: 100%;
+  border-radius: 2.5rem;
 }
 
 header {
@@ -78,17 +88,36 @@ header {
   }
 }
 
-main {
-  position: relative;
-  top: 50rem;
-}
 
-.dmx-campaign {
-  margin-top: 20rem;
-  position: relative;
-
-  img {
-    margin-bottom: 3rem;
+.dk-striped-table{
+  tr:first-child {
+    position: relative;
+    &:after{
+      position: absolute;
+      content: url("../images/table-arrow.svg");
+      width: 100px;
+      height: 25px;
+      top: calc(50% - 14px);
+      left: calc(57% - 50px);
+    }
   }
 }
 
+.dk-headings{
+  position: relative;
+  margin-bottom: 60px;
+  &.type-1{
+    margin-top: 80px;
+    &:before{
+      position: absolute;
+      content: "";
+      background: url("../images/dk-headings-1.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100px;
+      height: 140px;
+      right: 0;
+      top: -68px;
+    }
+  }
+}
